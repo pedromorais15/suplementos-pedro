@@ -1,0 +1,560 @@
+[
+  {
+    "id": 1,
+    "title": "100% Whey 900g - Max Titanium",
+    "categoria": "WHEY PROTEIN",
+    "description": "Suplemento alimentar proteico em pó sabor Baunilha. Matéria-prima de alta qualidade contendo 21g de proteína.",
+    "price": 109.99,
+    "imageSrc": "/produtos/1.png",
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "title": "Whey Protein Low 30 Doses - Nutri",
+    "categoria": "WHEY PROTEIN",
+    "description": "Suplemento de proteína do soro do leite com baixo teor de carboidratos e gorduras. Sabor Chocolate.",
+    "price": 99.99,
+    "imageSrc": "/produtos/2.png",
+    "destaque": false
+  },
+  {
+    "id": 3,
+    "title": "Pré-Treino Psychotic Demon Black 400g - Demons Lab",
+    "categoria": "PRÉ-TREINO",
+    "description": "Fórmula extrema para máxima energia, foco e desempenho. Sabor Fruit Punch.",
+    "price": 139.99,
+    "imageSrc": "/produtos/3.png",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "title": "Pré-Workout Panic 300g - Adaptogen Science",
+    "categoria": "PRÉ-TREINO",
+    "description": "Fórmula avançada para resistência, força e vasodilatação. Sabor Amora.",
+    "price": 94.99,
+    "imageSrc": "/produtos/4.png",
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "title": "Creatina Monohidratada 250g - Growth Supplements",
+    "categoria": "CREATINA",
+    "description": "Suplemento alimentar em pó com nova fórmula pura. Ideal para força e potência muscular.",
+    "price": 49.99,
+    "imageSrc": "/produtos/5.png",
+    "destaque": true
+  },
+  {
+    "id": 6,
+    "title": "Whey Protein Baunilha 900g - Pedro Suplementos",
+    "categoria": "WHEY PROTEIN",
+    "description": "Suplemento alimentar em pó com 21g de proteína e 4,8g de BCAA por porção. Sabor Baunilha.",
+    "price": 109.99,
+    "imageSrc": "/produtos/6.png",
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "title": "Creatina Monohidratada 300g - Max Titanium",
+    "categoria": "CREATINA",
+    "description": "Suplemento alimentar de creatina pura em pó com 0% Sódio. Auxilia no ganho de massa magra.",
+    "price": 64.99,
+    "imageSrc": "/produtos/7.png",
+    "destaque": false
+  },
+  {
+    "id": 8,
+    "title": "Creatina Micronizada 300g - Pedro Suplementos",
+    "categoria": "CREATINA",
+    "description": "100% Pura e micronizada, com 0% Sódio. Aumenta força, desempenho e massa muscular.",
+    "price": 69.99,
+    "imageSrc": "/produtos/8.png",
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "title": "Creatina Hardcore 300g - Integralmedica",
+    "categoria": "CREATINA",
+    "description": "Creatina 100% Pura. Auxilia no ganho de volume, energia e regeneração celular (ATP).",
+    "price": 74.99,
+    "imageSrc": "/produtos/9.png",
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "title": "Protein Crisp Bar Amendoim - Integralmedica",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína sabor Peanut Butter. Crocante e deliciosa.",
+    "price": 7.99,
+    "imageSrc": "/produtos/10.png",
+    "destaque": false
+  },
+  {
+    "id": 11,
+    "title": "Protein Crisp Bar Ovomaltine - Integralmedica",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína sabor Ovomaltine. 12g de proteína, crocante por fora e cremosa por dentro.",
+    "price": 7.99,
+    "imageSrc": "/produtos/11.png",
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "title": "Creamass Hipercalórico 3kg - Integralmedica",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Premium Super Mass Gainer sabor Baunilha. Whey Protein, 3g de Creatina e Waxy Maize.",
+    "price": 119.99,
+    "imageSrc": "/produtos/12.png",
+    "destaque": true
+  },
+  {
+    "id": 13,
+    "title": "Dark Mass Premium Gainer 3kg - Dark Lab",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Mass Gainer com Whey Protein, BCAA, Waxy Maize e Creatina.",
+    "price": 99.99,
+    "imageSrc": "/produtos/13.png",
+    "destaque": false
+  },
+  {
+    "id": 14,
+    "title": "Hipercalórico Morango 1kg - Growth Supplements",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Suplemento alimentar em pó para ganho de massa. Sabor Morango.",
+    "price": 44.99,
+    "imageSrc": "/produtos/14.png",
+    "destaque": false
+  },
+  {
+    "id": 15,
+    "title": "Mass Titanium 17500 3kg - Max Titanium",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Fórmula poderosa com Albumina, Whey Protein Concentrada e Colágeno Hidrolisado. Sabor Baunilha. 17g de proteína, 619kcal.",
+    "price": 89.99,
+    "imageSrc": "/produtos/15.png",
+    "destaque": false
+  },
+  {
+    "id": 16,
+    "title": "Pré-Treino Horus 300g - Max Titanium",
+    "categoria": "PRÉ-TREINO",
+    "description": "Focado em resistência e desempenho. Contém Beta-Alanina, Taurina e Arginina. Sabor Amora.",
+    "price": 89.99,
+    "imageSrc": "/produtos/16.png",
+    "destaque": false
+  },
+  {
+    "id": 17,
+    "title": "Pré-Treino Psychotic Apple 35 Doses - Insane Labz",
+    "categoria": "PRÉ-TREINO",
+    "description": "Energy, Focus, Endurance. Psycho pré-treino de alta potência. Sabor Maçã.",
+    "price": 149.99,
+    "imageSrc": "/produtos/17.png",
+    "destaque": true
+  },
+  {
+    "id": 18,
+    "title": "Power Protein Bar Trufa de Chocolate - Max Titanium",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Caixa de barras proteicas sabor Dark Chocolate Truffle. 29g de proteína.",
+    "price": 64.99,
+    "imageSrc": "/produtos/18.png",
+    "destaque": false
+  },
+  {
+    "id": 19,
+    "title": "Whey Protein 80% 1kg - Growth Supplements",
+    "categoria": "WHEY PROTEIN",
+    "description": "Suplemento alimentar em pó com 52g de aminoácidos (ACAAs) por porção. Alta concentração proteica (80%). Made in Portugal.",
+    "price": 119.99,
+    "imageSrc": "/produtos/19.png",
+    "destaque": true
+  },
+  {
+    "id": 20,
+    "title": "Whey Protein Concentrado 900g - DUX",
+    "categoria": "WHEY PROTEIN",
+    "description": "100% puro para saúde muscular e rápida absorção. Fornece 20g de proteína por porção. Sabor Chocolate Branco.",
+    "price": 89.99,
+    "imageSrc": "/produtos/20.png",
+    "destaque": false
+  },
+  {
+    "id": 21,
+    "title": "100% Pure Whey 825g - Made For You",
+    "categoria": "WHEY PROTEIN",
+    "description": "Suplemento alimentar proteico. Fórmula avançada para construção muscular.",
+    "price": 79.99,
+    "imageSrc": "/produtos/21.png",
+    "destaque": false
+  },
+  {
+    "id": 22,
+    "title": "Creatina Monohidratada 300g - DUX",
+    "categoria": "CREATINA",
+    "description": "Creatina 100% monohidratada, de alta pureza para saúde geral e desempenho esportivo. Sem sabor.",
+    "price": 59.99,
+    "imageSrc": "/produtos/22.png",
+    "destaque": false
+  },
+  {
+    "id": 23,
+    "title": "Pure Creatine 500g - ARK LXB",
+    "categoria": "CREATINA",
+    "description": "Creatina 100% natural e pura. Suplemento de alta qualidade para aumento de força.",
+    "price": 79.99,
+    "imageSrc": "/produtos/23.png",
+    "destaque": false
+  },
+  {
+    "id": 24,
+    "title": "Creatina Monohidratada 500g - Soldiers Nutrition",
+    "categoria": "CREATINA",
+    "description": "Suplemento alimentar de creatina em pó, 100% pura e monohidratada. Natural sem sabor.",
+    "price": 89.99,
+    "imageSrc": "/produtos/24.png",
+    "destaque": false
+  },
+  {
+    "id": 25,
+    "title": "Creatine Monohidratada 300g - BlackSkull",
+    "categoria": "CREATINA",
+    "description": "Pure Monohydrate Creatine. Suplemento dietário sem sabor. Alta pureza.",
+    "price": 69.99,
+    "imageSrc": "/produtos/25.png",
+    "destaque": false
+  },
+  {
+    "id": 26,
+    "title": "Pré-Treino Dux 300g - DUX",
+    "categoria": "PRÉ-TREINO",
+    "description": "Pré-treino de alta performance para energia instantânea e foco mental.",
+    "price": 99.99,
+    "imageSrc": "/produtos/26.png",
+    "destaque": false
+  },
+  {
+    "id": 27,
+    "title": "Pré-Treino Legacy 300g - Black Skull",
+    "categoria": "PRÉ-TREINO",
+    "description": "Fórmula com Beta-Alanina, Creatina e Cafeína. Sabor Tropical Mango.",
+    "price": 109.99,
+    "imageSrc": "/produtos/27.png",
+    "destaque": false
+  },
+  {
+    "id": 28,
+    "title": "Pré-Treino Insane Own - Insane Labz",
+    "categoria": "PRÉ-TREINO",
+    "description": "Fórmula para treinos intensos, focado em energia e excitação muscular.",
+    "price": 129.99,
+    "imageSrc": "/produtos/28.png",
+    "destaque": false
+  },
+  {
+    "id": 29,
+    "title": "Pré-Treino Carnage 450g - Bark Live",
+    "categoria": "PRÉ-TREINO",
+    "description": "Fórmula completa com 3000mg de Creatina, 3000mg de Arginina, 8000mg de Taurina e 2000mg de Beta-Alanina.",
+    "price": 159.99,
+    "imageSrc": "/produtos/29.png",
+    "destaque": true
+  },
+  {
+    "id": 30,
+    "title": "Gold Romboom Croccante - Gold",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína crocante de alta qualidade.",
+    "price": 6.99,
+    "imageSrc": "/produtos/30.png",
+    "destaque": false
+  },
+  {
+    "id": 33,
+    "title": "Monster One Mass Gainer - Darkness",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Nish-Protein Mass Gainer. Suplemento hipercalórico para ganho de massa.",
+    "price": 109.99,
+    "imageSrc": "/produtos/33.png",
+    "destaque": false
+  },
+  {
+    "id": 34,
+    "title": "Mass Complex Hipercalórico 3kg - New Millen",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Suplemento alimentar com WPC, WPE, WPH. Zero soja. 3g de Creatina, 16g de Proteína, 613kcal. Sabor Baunilha.",
+    "price": 99.99,
+    "imageSrc": "/produtos/34.png",
+    "destaque": false
+  },
+  {
+    "id": 35,
+    "title": "Growth Multi 120 Cápsulas - Growth",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento alimentar em cápsulas com multivitamínico completo.",
+    "price": 49.99,
+    "imageSrc": "/produtos/35.png",
+    "destaque": false
+  },
+  {
+    "id": 36,
+    "title": "Vitamina D3 10.000UI 60 Doses - Official Farma",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento de altíssima dosagem de Vitamina D3. 60 doses para saúde imunológica e óssea.",
+    "price": 39.99,
+    "imageSrc": "/produtos/36.png",
+    "destaque": true
+  },
+  {
+    "id": 37,
+    "title": "Magnésio Dimalato 60 Cápsulas - FTW!",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento de magnésio na forma de dimalato. Para energia e função muscular.",
+    "price": 44.99,
+    "imageSrc": "/produtos/37.png",
+    "destaque": false
+  },
+  {
+    "id": 38,
+    "title": "Suplemento BlackSkull - BlackSkull",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento alimentar da linha BlackSkull. Multi-nutrientes.",
+    "price": 54.99,
+    "imageSrc": "/produtos/38.png",
+    "destaque": false
+  },
+  {
+    "id": 39,
+    "title": "Ômega 3 Plus Ultra Concentrado - Catarinense Nutrição",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento em cápsula com 900mg EPA, 600mg DHA e Vitamina E. 20 cápsulas.",
+    "price": 35.99,
+    "imageSrc": "/produtos/39.png",
+    "destaque": false
+  },
+  {
+    "id": 40,
+    "title": "Complexo B 30 Doses - Official Farma",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento alimentar com vitaminas do complexo B para energia e metabolismo.",
+    "price": 29.99,
+    "imageSrc": "/produtos/40.png",
+    "destaque": false
+  },
+  {
+    "id": 41,
+    "title": "Vitaminas A, C, D, E & Zinco 30 Doses - Official Farma",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento completo com Vitaminas A, C, D, E e Zinco para sistema imunológico.",
+    "price": 34.99,
+    "imageSrc": "/produtos/41.png",
+    "destaque": false
+  },
+  {
+    "id": 42,
+    "title": "Vitamina C 1000mg 120 Comprimidos - Growth",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento alimentar em comprimidos de Vitamina C. Alta dosagem para imunidade e antioxidante.",
+    "price": 49.99,
+    "imageSrc": "/produtos/42.png",
+    "destaque": false
+  },
+  {
+    "id": 43,
+    "title": "Omegafor Plus Ultra Concentração - Vitafor",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento em cápsulas com 990mg EPA e 660mg DHA. 60 cápsulas de 1g. Ultra concentrado.",
+    "price": 59.99,
+    "imageSrc": "/produtos/43.png",
+    "destaque": true
+  },
+  {
+    "id": 44,
+    "title": "Ultraman Sports 60 Cápsulas - Dr. Gow",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento alimentar esportivo. 60 cápsulas.",
+    "price": 69.99,
+    "imageSrc": "/produtos/44.png",
+    "destaque": false
+  },
+  {
+    "id": 45,
+    "title": "Vitamina D3 2000 UI Ultra Concentrada 12 Caps - Nutrify",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Gluten Free, No GMO, Lactose Free. 12 cápsulas de vitamina D3 de alta absorção.",
+    "price": 19.99,
+    "imageSrc": "/produtos/45.png",
+    "destaque": false
+  },
+  {
+    "id": 46,
+    "title": "Zinco Quelato 30mg 12 Cápsulas - Ouro Pharma",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento mineral de Zinco na forma quelato. Para saúde imunológica e hormonal.",
+    "price": 15.99,
+    "imageSrc": "/produtos/46.png",
+    "destaque": false
+  },
+  {
+    "id": 47,
+    "title": "Cálcio + Vit D + Vit K 120 Comprimidos - Growth",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Nova fórmula para saúde óssea. Suplemento alimentar em comprimidos.",
+    "price": 59.99,
+    "imageSrc": "/produtos/47.png",
+    "destaque": false
+  },
+  {
+    "id": 48,
+    "title": "Vitamina D3 + K2 (MK-7) 100mcg - Oficial Farma",
+    "categoria": "VITAMINAS E MINERAIS",
+    "description": "Suplemento para uso interno. Combinação sinérgica de Vitamina D3 e K2 MK-7.",
+    "price": 49.99,
+    "imageSrc": "/produtos/48.png",
+    "destaque": true
+  },
+  {
+    "id": 49,
+    "title": "USDA Whey Protein 900g - USA",
+    "categoria": "WHEY PROTEIN",
+    "description": "Whey protein orgânico certificado pela USDA. Contém 21g de proteínas, 4.3g de Arginina, 3.5g de BCAAs e Glutamina.",
+    "price": 129.99,
+    "imageSrc": "/produtos/49.png",
+    "destaque": false
+  },
+  {
+    "id": 50,
+    "title": "100% Whey Titanium 900g - Dr. Peanut",
+    "categoria": "WHEY PROTEIN",
+    "description": "Suplemento alimentar proteico em pó sabor Avelã. 20g de proteína, 4.405mg de Leucina. Alta qualidade.",
+    "price": 109.99,
+    "imageSrc": "/produtos/50.png",
+    "destaque": true
+  },
+  {
+    "id": 51,
+    "title": "100% Whey 900g - Max Titanium (Avelã)",
+    "categoria": "WHEY PROTEIN",
+    "description": "Suplemento alimentar proteico em pó sabor Avelã. 20g de proteína, alto teor de proteínas e aminoácidos.",
+    "price": 109.99,
+    "imageSrc": "/produtos/51.png",
+    "destaque": false
+  },
+  {
+    "id": 52,
+    "title": "100% Whey Protein 900g - Shark Pro",
+    "categoria": "WHEY PROTEIN",
+    "description": "Suplemento alimentar de proteínas com vitaminas. Whey Protein concentrado.",
+    "price": 99.99,
+    "imageSrc": "/produtos/52.png",
+    "destaque": false
+  },
+  {
+    "id": 53,
+    "title": "Whey 80% HD 900g - Black Skull",
+    "categoria": "WHEY PROTEIN",
+    "description": "100% Whey Protein Concentrado. Suplemento alimentar de proteína em pó. 23g de proteína. Sabor Cookies & Cream.",
+    "price": 119.99,
+    "imageSrc": "/produtos/53.png",
+    "destaque": true
+  },
+  {
+    "id": 54,
+    "title": "DarkBar - Darkness",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína Darkness. Saborosa e prática para o seu dia a dia.",
+    "price": 8.99,
+    "imageSrc": "/produtos/54.png",
+    "destaque": false
+  },
+  {
+    "id": 55,
+    "title": "Creatine Protein Bar - Enryk LXB",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína com creatina. 12g de proteína, zero açúcar. Disponível em diversos sabores.",
+    "price": 9.99,
+    "imageSrc": "/produtos/55.png",
+    "destaque": false
+  },
+  {
+  "id": 57,
+  "title": "Dark Protein Bar 360g - Growth",
+  "categoria": "BARRA DE PROTEÍNA",
+  "description": "Barra de proteína sabor Dark Chocolate and Cream. 360g (12.7oz). Deliciosa e rica em proteínas para sua rotina.",
+  "price": 49.99,
+  "imageSrc": "/produtos/57.png",
+  "destaque": false
+  },
+  {
+    "id": 57,
+    "title": "YoPro 15g Proteína - Nutrata",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína sabor Chocolate. 15g de proteína. Prática e nutritiva.",
+    "price": 6.99,
+    "imageSrc": "/produtos/57.png",
+    "destaque": false
+  },
+  {
+    "id": 58,
+    "title": "Protein Bar 20g - DUX",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína com 20g de proteína. Ideal para pré e pós-treino.",
+    "price": 9.99,
+    "imageSrc": "/produtos/58.png",
+    "destaque": false
+  },
+  {
+    "id": 59,
+    "title": "Gold Bar - Gold",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína Gold. Qualidade e sabor em cada mordida.",
+    "price": 7.99,
+    "imageSrc": "/produtos/59.png",
+    "destaque": false
+  },
+  {
+    "id": 60,
+    "title": "Gold Brownie & Crisps 20g - Runnin'",
+    "categoria": "BARRA DE PROTEÍNA",
+    "description": "Barra de proteína sabor Brownie & Crisps. 20g de proteína. Crocante e deliciosa.",
+    "price": 8.99,
+    "imageSrc": "/produtos/60.png",
+    "destaque": false
+  },
+  {
+    "id": 61,
+    "title": "Shark Mass 3kg - Shark Pro",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Suplemento alimentar de carboidratos e proteínas em pó. WPC + WPF + 20% Proteína + 17 Vitaminas e Minerais.",
+    "price": 129.99,
+    "imageSrc": "/produtos/61.png",
+    "destaque": true
+  },
+  {
+    "id": 62,
+    "title": "Whey Pro 1kg - Body Action",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Whey Protein concentrado com vitaminas e minerais. 3.4g de BCAA. Sabor Baunilha.",
+    "price": 89.99,
+    "imageSrc": "/produtos/62.png",
+    "destaque": false
+  },
+  {
+    "id": 63,
+    "title": "Massa Nitro 2,52kg - Probiótica",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Suplemento alimentar de carboidratos e proteínas em pó. Ideal para ganho de massa muscular.",
+    "price": 99.99,
+    "imageSrc": "/produtos/63.png",
+    "destaque": false
+  },
+  {
+    "id": 64,
+    "title": "Anabolic Mass Whey Free - Profit Laboratorios",
+    "categoria": "HIPERCALÓRICO",
+    "description": "Whey Protein, Albumina, Colágeno, Waxy Maize. 32g de proteína, 25g de carboidratos, 3g de creatina.",
+    "price": 119.99,
+    "imageSrc": "/produtos/64.png",
+    "destaque": true
+  }
+]
