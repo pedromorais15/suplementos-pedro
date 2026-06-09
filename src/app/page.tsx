@@ -7,31 +7,31 @@ import produtos from "../../produtos.json"
 
 export default function Home() {
   const produtosDestaque = useMemo(() => {
-    return produtos.filter((produto) => produto.destaque)
+    return produtos.filter((p) => p.destaque)
   }, [])
 
   return (
-    <div className="w-full min-h-screen bg-zinc-950 pb-20">
-      {/* Carrossel de Banner no Topo */}
+    <div className="w-full min-h-screen bg-zinc-950 pb-24">
+      {/* Carrossel */}
       <Carrossel />
 
-      {/* Título da Seção */}
-      <div className="text-center my-14 px-4">
-        <span className="text-[11px] font-black uppercase tracking-widest text-blue-500 bg-blue-950/40 px-3.5 py-1.5 rounded-full border border-blue-500/20">
-          Sua Loja Completa
+      {/* Header da seção */}
+      <div className="text-center mt-20 mb-12 px-4">
+        <span className="inline-flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest text-blue-400 bg-blue-950/40 px-4 py-1.5 rounded-full border border-blue-500/20">
+          ✦ Sua Loja Completa
         </span>
-        <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight mt-4 uppercase">
-          Produtos em Destaque
+        <h1 className="text-3xl md:text-[2.6rem] font-black text-white tracking-tight mt-5 uppercase leading-none">
+          Produtos em{" "}
+          <span className="text-blue-500">Destaque</span>
         </h1>
-        <div className="w-16 h-1 bg-blue-600 mx-auto mt-3 rounded-full"></div>
-        <p className="text-zinc-400 mt-3 max-w-md mx-auto text-sm md:text-base font-medium">
-          Alcance mais resultados com os suplementos mais procurados e
-          organizados para a sua rotina.
+        <div className="w-10 h-[3px] bg-blue-600 mx-auto mt-4 rounded-full" />
+        <p className="text-zinc-400 mt-4 max-w-sm mx-auto text-sm leading-relaxed">
+          Os suplementos mais procurados, selecionados para a sua rotina de performance.
         </p>
       </div>
 
-      {/* Grid Responsivo Premium */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto px-4">
+      {/* Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 max-w-7xl mx-auto px-4">
         {produtosDestaque.map((produto) => (
           <CardProduto
             key={produto.id}
@@ -41,10 +41,10 @@ export default function Home() {
             price={produto.price}
             imageSrc={produto.imageSrc}
             destaque={produto.destaque}
+            categoria={produto.categoria}
           />
         ))}
       </div>
     </div>
-    
   )
 }
