@@ -136,22 +136,23 @@
   },
   {
     "id": 16,
-    "title": "Pré-Treino Horus 300g - Max Titanium",
-    "categoria": "PRÉ-TREINO",
-    "description": "Focado em resistência e desempenho. Contém Beta-Alanina, Taurina e Arginina. Sabor Amora.",
-    "price": 89.99,
-    "imageSrc": "/produtos/16.png",
-    "destaque": false
-  },
-  {
-    "id": 17,
     "title": "Pré-Treino Psychotic Apple 35 Doses - Insane Labz",
     "categoria": "PRÉ-TREINO",
     "description": "Energy, Focus, Endurance. Psycho pré-treino de alta potência. Sabor Maçã.",
     "price": 149.99,
-    "imageSrc": "/produtos/17.png",
+    "imageSrc": "/produtos/16.png",
     "destaque": true
   },
+  {
+    "id": 17,
+    "title": "Pré-Treino Horus 300g - Max Titanium",
+    "categoria": "PRÉ-TREINO",
+    "description": "Focado em resistência e desempenho. Contém Beta-Alanina, Taurina e Arginina. Sabor Amora.",
+    "price": 89.99,
+    "imageSrc": "/produtos/17.png",
+    "destaque": false
+  },
+  
   {
     "id": 18,
     "title": "Power Protein Bar Trufa de Chocolate - Max Titanium",

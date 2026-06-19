@@ -3,18 +3,19 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { ShoppingCart } from "lucide-react"
+import { ShoppingCart, Menu, X } from "lucide-react"
 import { useCart } from "@/context/CartContext"
 import CartDrawer from "@/components/CartDrawer"
 
 export default function Header() {
   const [carrinhoAberto, setCarrinhoAberto] = useState(false)
+  const [menuAberto, setMenuAberto] = useState(false)
   const { totalItens } = useCart()
 
   return (
     <>
       <header className="w-full h-16 bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800/60 sticky top-0 z-50 px-6 md:px-36 flex items-center justify-between transition-all">
-        
+
         {/* Logo */}
         <div className="flex items-center gap-3">
           <Image
@@ -29,16 +30,16 @@ export default function Header() {
           </h1>
         </div>
 
-        {/* Nav + Carrinho */}
+        {/* Nav desktop + Carrinho */}
         <div className="flex items-center gap-6">
-          <nav className="flex space-x-8">
-            <Link href="/" className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 hover:drop-shadow-[0_0_6px_rgba(59,130,246,0.6)] transition-all duration-200">
+          <nav className="hidden md:flex space-x-8">
+            <Link href="/" className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 transition-all duration-200">
               Home
             </Link>
-            <Link href="/produtos" className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 hover:drop-shadow-[0_0_6px_rgba(59,130,246,0.6)] transition-all duration-200">
+            <Link href="/produtos" className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 transition-all duration-200">
               Produtos
             </Link>
-            <Link href="/contato" className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 hover:drop-shadow-[0_0_6px_rgba(59,130,246,0.6)] transition-all duration-200">
+            <Link href="/contato" className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 transition-all duration-200">
               Contato
             </Link>
           </nav>
@@ -57,8 +58,44 @@ export default function Header() {
               </span>
             )}
           </button>
+
+          {/* Botão menu mobile */}
+          <button
+            className="md:hidden text-zinc-400 hover:text-white transition-colors"
+            onClick={() => setMenuAberto(!menuAberto)}
+            aria-label="Abrir menu"
+          >
+            {menuAberto ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
         </div>
       </header>
+
+      {/* Menu mobile dropdown */}
+      {menuAberto && (
+        <nav className="md:hidden w-full bg-zinc-950 border-b border-zinc-800 px-6 py-4 flex flex-col gap-4 sticky top-16 z-40">
+          <Link
+            href="/"
+            onClick={() => setMenuAberto(false)}
+            className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 transition-all duration-200"
+          >
+            Home
+          </Link>
+          <Link
+            href="/produtos"
+            onClick={() => setMenuAberto(false)}
+            className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 transition-all duration-200"
+          >
+            Produtos
+          </Link>
+          <Link
+            href="/contato"
+            onClick={() => setMenuAberto(false)}
+            className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-blue-500 transition-all duration-200"
+          >
+            Contato
+          </Link>
+        </nav>
+      )}
 
       {/* Drawer do Carrinho */}
       <CartDrawer
